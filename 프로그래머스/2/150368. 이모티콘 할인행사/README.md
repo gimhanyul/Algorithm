@@ -1,6 +1,6 @@
 # [level 2] 이모티콘 할인행사 - 150368 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150368#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150368) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 29일 12:10:29
+2024년 03월 29일 12:10:57
 
 ### 문제 설명
 

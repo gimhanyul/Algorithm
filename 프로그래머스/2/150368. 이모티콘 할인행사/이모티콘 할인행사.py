@@ -17,6 +17,6 @@ def solution(users, emoticons):
                 이모티콘구매 += 임티판매금액
         
         result.append((가입자수, 이모티콘구매))
-    #가입자 수 내림차순(5->4->3...)
+    
     answer = sorted(result, reverse=True, key=lambda x: (x[0], x[1]))
     return answer[0]
