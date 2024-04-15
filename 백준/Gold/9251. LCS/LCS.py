@@ -8,22 +8,8 @@ def lcs(s1, s2):
                 dp[i][j] = dp[i-1][j-1] + 1
             else:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
-    
-    # LCS 문자열 추출
-    lcs_length = dp[n][m]
-    lcs_str = ""
-    i, j = n, m
-    while i > 0 and j > 0:
-        if s1[i-1] == s2[j-1]:
-            lcs_str = s1[i-1] + lcs_str
-            i -= 1
-            j -= 1
-        elif dp[i-1][j] >= dp[i][j-1]:
-            i -= 1
-        else:
-            j -= 1
             
-    return lcs_length
+    return dp[n][m]
 
 s1 = input()
 s2 = input()
